@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="0dp"
+    tools:context=".bottom_nav.AdvanceFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tvCourseNameAdv"
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       />
+
+    <TextView
+        android:id="@+id/tvContentAdv"
+        android:layout_marginTop="3dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        />
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/cContentAdv"
+        layout="@layout/adv_c"
+        android:visibility="gone"
+        />
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/cppContentAdv"
+        layout="@layout/adv_cpp"
+        android:visibility="gone"
+        />
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/javaContentAdv"
+        layout="@layout/adv_java"
+        android:visibility="gone"
+        />
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/kotlinContentAdv"
+        layout="@layout/adv_kotlin"
+        android:visibility="gone"
+        />
+
+    <include
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/phpContentAdv"
+        layout="@layout/adv_php"
+        />
+    <include
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/sqlContentAdv"
+        layout="@layout/adv_sql"
+        />
+    <include
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:id="@+id/pythonContentAdv"
+        layout="@layout/adv_python"
+        /><include
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:id="@+id/javascriptContentAdv"
+    layout="@layout/adv_javascript"
+    />
+
+</FrameLayout>

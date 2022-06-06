@@ -1,0 +1,110 @@
+<!DOCTYPE resources [<!ENTITY less "<"><!ENTITY greater ">"><!ENTITY semicolon ";">]>
+<resources>
+    <string name="app_name">codeAgain</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="coursename">CourseName</string>
+    <string name="cDef">C content uploading soon</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="c_basic_intro">"\nC is developed by Dennis Ritchie and his team.\n\n It is Structured programming Language,\n\n C supports functions that enables easy maintainability of code by breaking large code into smaller modules\n\nIt is very Powerful and fast language,\n C programming language is a machine-independent programming language that is mainly used to create many types of applications and operating systems such as Windows, and other complicated programs such as the Oracle database, Git, Python interpreter, and games \nand is considered a programming foundation in the process of learning any other programming language.\n\n"</string>
+    <string name="link_sample_code_basic_c"><a href="https://www.w3resource.com/c-programming-exercises/for-loop/c-for-loop-exercises-33.php">https://www.w3resource.com/c-programming-exercises/for-loop/c-for-loop-exercises-33.php</a> </string>
+    <string name="link_intro_basic_c"><a href="https://www.simplilearn.com/tutorials/c-tutorial/use-of-c-language">https://www.simplilearn.com/tutorials/c-tutorial/use-of-c-language</a></string>
+    <string name="c_basic_uses">\nThe program written in C is easy and quick to execute. As a consequence, the C programming language has resulted in the creation of many other languages. C++ (also known as C with classes), C#, Python, Java, JavaScript, Perl, PHP, Verilog, D, Limbo, and the Unix C shell are examples of these languages. \n\nEvery language employs the C programming language to varying degrees. Python, for example, uses C to provide standard libraries, whereas C++, PHP, and Perl need C for their syntaxes and control architectures.\n\n\n\nThe C programming language is the recommended language for creating embedded system drivers and applications. \nThe availability of machine-level hardware APIs, as well as the presence of C compilers, dynamic memory allocation, and deterministic resource consumption, make this language the most popular.</string>
+
+    <string name="c_adv_intro"><![CDATA[How C Programming Language Works?\n\n
+      C is a compiled programming language. This mean that we\'ll have to convert our source files (human-readable text files) into object files (machine-readable text files for microcontrollers, computers, and laptops). \n\n\n
+      Editing\-\-
+      \nWriting/editing source code is the initial stage in constructing an application in C.
+       \nThe source code is a text file that contains all of the instructions that must be executed by the machine (understandable by humans).
+        \n\nWe can use either a plain text editor (like Notepad) or the IDE\'s built-in editor.
+        \nThe source code must follow the syntax of the C programming language.
+
+         \n\nAfter the source file is complete, save it as a *.c file.
+         \n\nNow we\'ll need a compiler to compile our source code.
+         \n We\'ll need to install a C compiler on our PC and run it manually from the command prompt if we utilize a simple text editor for our source code.
+
+         \n\nAn easier method is to utilize an IDE (which should have a compiler) and simply press a menu button to start it.
+
+         \n\n\nA preliminary processing phase of the source file is included in the compilation task.
+         \nA preprocessor is called by the compiler to perform the preprocessing. The preprocessor searches the source code for lines that begin with the # (hash) character.
+         \nIncluding functions declared externally from our source code is one of the compiler\'s directives.
+         \nThe preprocessor removes all compiler directives from the original code, but it keeps track of which extra files are required later in the process.
+         \n\nA temporary file will be created at the end of the preprocessing, which will be hidden from the user.
+         \n The compiler starts after the preparation is finished. Our source file is converted into an object file by the compiler.
+         \nThe object file, also known as machine code, can be interpreted by the computer\'s or microcontroller\'s Central Processing Unit.  \n\n\nThe object file is complete, however, some undefined references are missing.
+         \n\nThese undefined references are code fragments that must be fetched from a separate location.
+          \nThe printf() function is the undefined reference in our scenario.
+          \n\nWe know where to acquire the code for this function because the compiler directive (#includestdio.h>) mentioned it.
+           \n\nstdio.h is a header file (extension *.h) that contains the declaration of our printf() function, among other things.
+
+            \nWe describe where to get the definition of the printf() function by including the header file.
+            ]]></string>
+    <string name="c_adv_intro2">\n\n\nLinking —\n At this point, we must gather all of the files required by our application.              \n\nFor the external functions, we\'ll need the object files as well as the static library files. The external functions utilized in our source file are defined in the static library files (*.lib).\nThe machine code for the printf() function will be stored in the static library file in our scenario.            \n\n\nA linker is the one who does the linking.           \nIt will examine all of the object files for undefined references and replace them with the machine code from the library files.            \nWe\'ll have an executable file (*.exe for Windows applications, *.hex for microcontrollers) at the end of the linking procedure. \n\n\nLoading —\n  The programme file must then be loaded into the computer\'s memory before it can be executed.\n\nA loader is in charge of this.            \nThe loader is usually included in the executable file by the linker.            \nWhen we launch the executable, it activates the loader, which loads the programme into memory and starts the operation.</string>
+    <string name="link_ltl_adv_c"><a href = "https://www.geeksforgeeks.org/difference-between-linker-and-loader/">https://www.geeksforgeeks.org/difference-between-linker-and-loader/</a></string>
+    <string name="cpp_basic_intro"><![CDATA[C++ was developed by Bjarne Stroustrup at AT&T Bell Laboratories in Murray Hill,New Jersey, USA.\n In the early 1980\'s Stroustrup, an admirer of Simula67 and a strong supporter of C,\n
+            wanted to combine the best of both the language and create a more powerful language that could support object-oriented (like java,c#) programming \n
+            features and still retain the power and elegance of C.\n
+            The result was C++(C with classes or extension of C).
+             The idea of naming C++ come from C increment operator(++) which increase value by one unit.
+             this increment operator is not available in Python language.\n
+
+
+]]></string>
+    <string name="cpp_basic_cvscpp"><![CDATA[ \nNearly all C program runs on C++ compiler except few
+             \neg. C++ is strict toward typecasting and not support implicit typecasting
+             \n like \n\tstruct node *newNode;
+                      \n\tnewNode = malloc(sizeof(struct node));
+                      \nthis will work in C but not in C++
+                      \n\tnewNode = (struct node*)sizeof(struct node));
+                      //explicitly typecasting
+                      \nabove code will run in C++ and C both\n
+                      Below points distinguish c and c++compiler
+                      \n               \t    1.Calling a function before the declaration\n
+                      \n               \t    2.Using normal pointer with const variable\n
+                      \n               \t       3.Using typecast pointers\n
+                      \n               \t       4.Declaring constant values without initializing\n
+                      \n               \t       5.Using specific keywords as variable names\n
+                      \n               \t       6.Strict type checking in c++\n
+                      \n               \t       7.The return type of main() (only integer value in c++)
+    ]]></string>
+    <string name="link_cvscpp_basic_cpp"><a href = "https://www.geeksforgeeks.org/write-a-c-program-that-wont-compile-in-cpp/">https://www.geeksforgeeks.org/write-a-c-program-that-wont-compile-in-cpp/</a>></string>
+    <string name="about_sql">About sql</string>
+    <string name="about_sql_intro">
+        Over the years, SQL has become an industry standard. For now, it is enough to say that SQL has become the basic language for working with databases. It has been recognized by all important organizations, and market giants such as Google and Facebook use it on a daily basis for many processes.\n
+
+    </string>
+    <string name="link_basic_sql"><a href = "https://learnsql.com/blog/history-of-sql">https://learnsql.com/blog/history-of-sql/</a></string>
+    <string name="about_sql_intro2">"\n     Even before the System R project started (a project by IBM for testing relational algebra), Chamberlin and Boyce came up with a language they called SQUARE (Specifying Queries as Relational Expressions).\n\n They appreciated the power of Codd’s ideas, which allowed them to use a few lines to express complex queries that would take pages in a hierarchical database. However, they were convinced that their language was simpler and more accessible to regular users than Codd’s relational algebra and relational calculus.\n         SQUARE was the foundation for System R’s new query language. SQUARE used a lot of subscripts and some mathematical notation. It was difficult to type on a keyboard. Chamberlin and Boyce decided to adapt it so that it resembled the structure of an English sentence and was easier to type.          \n\nAnd that’s how SEQUEL(structured english query language) was born. Later SEQUEL was renamed to SQL because of a trademark issue. "</string>
+    <string name="link_adv_sql"><a href ="https://www.analyticsvidhya.com/blog/2021/10/a-detailed-guide-on-sql-query-optimization/">https://www.analyticsvidhya.com/blog/2021/10/a-detailed-guide-on-sql-query-optimization/</a>></string>
+    <string name="about_kotlin">About Kotlin</string>
+    <string name="kotlin_basic_intro">"Kotlin is a general purpose, free, open source, statically typed “pragmatic” programming language initially designed for the JVM (Java Virtual Machine) and Android that combines object-oriented and functional programming features. It is focused on interoperability, safety, clarity, and tooling support. \nKotlin originated at JetBrains, the company behind IntelliJ IDEA, in 2010, and has been open source since 2012. "</string>
+    <string name="kotlin_basic_intro2">. The language also supports higher-order functions, anonymous functions, lambdas, inline functions, closures, tail recursion, and generics. In other words, Kotlin has all of the features and advantages of a functional language.\n\n
+    Even though Kotlin is a full-fledged functional programming language, it preserves most of the object-oriented nature of Java as an alternative programming style, which is very handy when converting existing Java code. Kotlin has classes with constructors, along with nested, inner, and anonymous inner classes, and it has interfaces like Java 8. \n\nKotlin does not have a new keyword. To create a class instance, call the constructor just like a regular function.</string>
+    <string name="kotlin_basic_intro3">Up until May 2017, the only officially supported programming languages for Android were Java and C++. Google announced official support for Kotlin on Android at Google I/O 2017, and starting with Android Studio 3.0 Kotlin is built into the Android development toolset. Kotlin can be added to earlier versions of Android Studio with a plug-in.\n\nWhy Google adopted Kotlin, one possible answer is Oracle(Java) vs Google lawsuit  factor Java is very old language and many developer likes Java more than Kotlin even if Java has longer and boilerplate code.</string>
+    <string name="link__kotlin_intro"><a href = "https://www.techyourchance.com/why-google-adopted-kotlin-for-android/">https://www.techyourchance.com/why-google-adopted-kotlin-for-android/</a></string>
+    <string name="about_python_intro">Guido Van Rossum published the first version of Python code (version 0.9.0) at alt.sources in February 1991. This release included already exception handling, functions, and the core data types of list, dict, str and others. It was also object oriented and had a module system. \n\n Python version 1.0 was released in January 1994. The major new features included in this release were the functional programming tools lambda, map, filter and reduce, which Guido Van Rossum never liked.\n\n  Six and a half years later in October 2000, Python 2.0 was introduced. This release included list comprehensions, a full garbage collector and it was supporting unicode. \n\n Python flourished for another 8 years in the versions 2.x before the next major release as Python 3.0 (also known as \"Python 3000\" and \"Py3K\") was released. Python 3 is not backwards compatible with Python 2.x\n\n\n In an interview, Guido compares Python to languages like Java or Swift and says that while the latter two are a great choice for software developers — people whose day job is programming, but Python was made for people whose day job has nothing to do with software development but they code mainly to handle data.</string>
+    <string name="link__python_intro"><a href = "https://python-course.eu/python-tutorial/history-and-philosophy-of-python.php">https://python-course.eu/python-tutorial/history-and-philosophy-of-python.php</a></string>
+    <string name="adv_python_intro">    Python is an interpreted, high-level, general-purpose programming language. It is dynamically typed and garbage-collected.\n\n\n\n Python is an interpreted language and not a compiled one, although compilation is a step.
+        \nPython code, written in .py file is first compiled to what is called bytecode \nwhich is stored with a .pyc or .pyo format.</string>
+    <string name="adv_python_intro2">"Instead of translating source code to machine code like C++, Python code it translated to bytecode. This bytecode is a low-level set of instructions that can be executed by an interpreter.\nInstead of executing the instructions on CPU, bytecode instructions are executed on a Virtual Machine like Java.\n\n "</string>
+    <string name="link__python_intro2"><a href = "https://towardsdatascience.com/how-does-python-work-6f21fd197888">https://towardsdatascience.com/how-does-python-work-6f21fd197888</a></string>
+    <string name="php_basic_intro">PHP stands for PHP: Hypertext Preprocessor. Yes, the first letter in the acronym stands for the whole acronym(confusing isn\'t)\n It’s considered a relatively easy one to master.\n\nHP is a scripting language, especially designed to put up web sites. A common use is data retrieval from SQL databases. The language is also used to create charts and other graphics. \n\n
+    PHP carries out common website duties like accepting passwords, authenticating users, and managing forum posts and guest books. Facebook integration is another common use.\n\n</string>
+    <string name="php_basic_intro2">PHP may be compared to other scripting languages like Ruby or Perl as well as to Microsoft’s ASP\n\nOriginally (it is believed) the letters stood for Personal Home Page. The first work was done by Rasmus Lerdorf and dates back to about 1994. Lerdorf originally used it for his personal page – specifically to track visitors. Soon, a lot of additional functions were added. It took a few years, though, for it to become a language and not just a set of tools.\n\n
+
+The code was released in the mid-1990s. Israel’s Andi Gutmans and Zeev Suraski did a major overhaul in 1997 with the goal of using PHP to run an eCommerce site. Their version, termed PHP 3.0, had more of the features we expect and see today.\n\n
+
+The same duo later created Version 4.0. 2004 saw another major revision, PHP 5.0. Although there has not yet been a 6.0, there have been significant improvements since 5.0, including the removal of several things that had caused instability or potential security breaches.</string>
+    <string name="link_php_intro"><a href = "https://www.softwareengineerinsider.com/programming-languages/php.html">https://www.softwareengineerinsider.com/programming-languages/php.html</a></string>
+    <string name="adv_php_intro">. In order for a PHP script to be executed as a standalone programming entity, an interpreter is needed. The interpreter is a binary script which is being executed only when called. So, if a PHP script needs to be executed, the interpreter is being called either by the user directly via the console of the server or via some other service already running on the Web Hosting Server (the Web Server).\n\n\nwhen a request to a PHP script hits the Web Server (for example https://example.com/index.php), it is being directed by the Web Server to the PHP interpreter available on the Web Hosting Server. The interpreter basically executes all the programming logic implemented in the PHP file and returns the result to the Web Server in either Plain Text or HTML format. From that point on, the Web Server considers that result as a Static resource and returns it to the Web Browser of the visitor who made the request.</string>
+    <string name="link_php_interpretion"><a href = "https://www.fastcomet.com/tutorials/php-executions-optimization/how-it-works">https://www.fastcomet.com/tutorials/php-executions-optimization/how-it-works</a></string>
+    <string name="basic_js_intro">The early to mid-1990s was an important time for the internet. Key players like Netscape and Microsoft were in the midst of browser wars, with Netscape’s Navigator and Microsoft’s Internet Explorer going head to head. In September 1995, a Netscape programmer named Brandan Eich developed a new scripting language in just 10 days. It was originally named Mocha, but quickly became known as LiveScript and, later, JavaScript.</string>
+    <string name="basic_js_intro2">There’s often some confusion about the two, but JavaScript and Java have almost nothing in common. The name JavaScript came from Netscape’s support of Java applets within its browser. Many say it was also a marketing tactic to divert some attention from Java, which was the most buzzed-about language at the time.</string>
+    <string name="basic_js_intro3">"In 1997, due to JavaScript’s rapid growth, it became clear that the language would need to be properly maintained and managed. Therefore, Netscape handed the job of creating a language specification to the European Computer Manufacturers Association (ECMA), a body founded with the goal of standardizing computing. "</string>
+    <string name="basic_js_intro4">From its slightly rocky start, JavaScript has risen to be the most popular programming language in the world. According to GitHub’s 2018 Octoverse report, there are more JavaScript code repositories than any other language—and that number is steadily on the rise.\n\nA series of JavaScript frameworks and libraries, such as Ember, Angular, React, and Vue, have been developed to allow powerful and complicated web applications to be written using small teams within short time spans. Alongside client and server software, it is now even possible to write native mobile apps using JavaScript\n</string>
+    <string name="link_javascript_intro"><a href = "https://www.springboard.com/blog/data-science/history-of-javascript/">https://www.springboard.com/blog/data-science/history-of-javascript/</a></string>
+    <string name="basic_java_intro">Java is one of the most popular programming languages worldwide. It was created by James Gosling and Patrick Naughton, employees of Sun Microsystems, with support from Bill Joy, co-founder of Sun Microsystems. Sun officially presented the Java language at SunWorld on May 23, 1995. Then, in 2009, the Oracle company bought the Sun company, which explains why the language now belongs to Oracle.</string>
+    <string name="basic_java_intro2">"  Java is described as being a multi-purpose, strongly typed, and Object-Oriented Programming (OOP) language.  With this programming language, we can create applications on multiple devices. Its scope is very wide, allowing us to create software for mobile devices, point of sale terminals, ATMs, IoT (Internet of Things), as well as web pages.  Although Kotlin is the preferred language for Android development in 2021, Java is still the default language for developing apps for Android. The big reason for that is Android's tight integration with Java. In fact, parts of that OS, like the UI and specific core libraries, are written in Java."</string>
+    <string name="link_java_intro"><a href = "https://www.baeldung.com/java-history">https://www.baeldung.com/java-history</a></string>
+</resources>

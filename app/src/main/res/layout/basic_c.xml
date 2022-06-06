@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/basic_c_xml"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About C"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            />
+
+
+        <TextView
+            android:textIsSelectable="true"
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#034740"
+            android:gravity="center"
+            android:text="@string/c_basic_intro"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:fontFamily="casual"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/cjoke" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:id="@+id/textView99"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:background="#034740"
+            android:gravity="center"
+            android:text="Below is a sample C code which prints Pascal's triangle. Algorithm used here is designed by observing a simple pattern  "
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="italic"
+           />
+
+
+
+        <ImageView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@drawable/img"
+            />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:background="#034740"
+            android:gravity="center"
+            android:text="Below is output for sample C code."
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            />
+        <ImageView
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/img_1"
+            />
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#034740"
+            android:gravity="center"
+            android:text="@string/c_basic_uses"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:fontFamily="casual"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OPerators in c"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            />
+
+        <ImageView
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_2"
+            />
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginTop="15dp"
+            android:background="#034740"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:fontFamily="casual"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

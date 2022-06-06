@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="@color/black"
+        tools:context=".MainActivity"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+        >
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/sideNav"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/side_menu"
+        android:layout_gravity="start"
+        />
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:menu="@menu/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_baseline_subject_24"
+        app:title="CodeAgain [total revision app]"
+        app:titleMarginStart="15dp"
+        app:titleTextColor="#EF6F97" />
+
+        <TextView
+            android:id="@+id/tvQuote"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:background="@drawable/unsplash_img"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:text="TextView"
+            android:textStyle="italic"
+            android:textColor="#F4ECF1"
+            android:textSize="13sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/tvQuote">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCourses"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+         />
+
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.drawerlayout.widget.DrawerLayout>

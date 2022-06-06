@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="0dp"
+    tools:context=".bottom_nav.BasicFragment">
+
+
+    <TextView
+        android:id="@+id/tvCourseName"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_marginTop="2dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+   <include
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="4dp"
+       android:id="@+id/cContent"
+       layout="@layout/basic_c"
+       android:visibility="gone"
+       />
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:id="@+id/cppContent"
+        layout="@layout/basic_cpp"
+        android:visibility="gone"
+        />
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:id="@+id/javaContent"
+        layout="@layout/basic_java"
+        android:visibility="gone"
+        />
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:id="@+id/kotlinContent"
+        layout="@layout/basic_kotlin"
+        android:visibility="gone"
+        />
+
+    <include
+        android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:id="@+id/phpContent"
+    layout="@layout/basic_php"
+    />
+    <include
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:id="@+id/sqlContent"
+        layout="@layout/basic_sql"
+        /><include
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:id="@+id/pythonContent"
+        layout="@layout/basic_python"
+        /><include
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:id="@+id/javascriptContent"
+        layout="@layout/basic_javascript"
+        />
+
+
+</FrameLayout>

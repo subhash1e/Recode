@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view"
+    >
+
+    <item
+        android:id="@+id/itBasic"
+        android:icon="@drawable/ic_baseline_star_half_24"
+        android:title="Basic" />
+    <item
+        android:id="@+id/itAdvance"
+        android:icon="@drawable/ic_baseline_star_24"
+        android:title="Advance" />
+    <item
+        android:id="@+id/itSources"
+        android:icon="@drawable/ic_baseline_source_24"
+        android:title="Sources" />
+</menu>
