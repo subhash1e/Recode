@@ -1,5 +1,5 @@
 # Recode
-android app for reading
+android app for knowledge about different programming languages
 
 # downloads
 
