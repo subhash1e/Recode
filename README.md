@@ -4,6 +4,7 @@ android app for knowledge about different programming languages
 # downloads
 
 - https://github.com/subhash1e/Recode/releases/download/app/app-debug.apk
+- https://play.google.com/store/apps/details?id=com.subhash1e.codeagain
 
 # screen-shots
 ![Screenshot_20220610-204510](https://user-images.githubusercontent.com/85139394/173097688-eb8b2574-e2f6-48f3-9207-38fe9573eb54.png)
